@@ -1,0 +1,66 @@
+/* Product.css */
+
+.product-list {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* Space between items */
+  justify-content: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.product-list > div {
+  flex: 1 1 200px; /* Ensures a responsive grid layout */
+  max-width: 220px; /* Set a max width for each product card */
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.2s ease;
+  background-color: #ffffff; /* White background for contrast */
+}
+
+.product-list > div:hover {
+  transform: translateY(-5px); /* Slight hover effect */
+}
+
+.product-list img {
+  width: 100%; /* Ensures all images are the same width */
+  height: 150px; /* Fixed height to keep images uniform */
+  object-fit: cover; /* Maintains aspect ratio */
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.product-list h1 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.product-list p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.product-list .btn {
+  width: 100%; /* Full-width button */
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.hero-section{
+    padding: 20px 20px;
+}
+.hero-section h1{
+  font-family: serif;
+  font-size: 50px;
+}
+.hero-section h5{
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
